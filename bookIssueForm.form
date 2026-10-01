@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "label": "Student Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0anulal",
+        "columns": null
+      },
+      "id": "Field_0ufkz4p",
+      "key": "studentName"
+    },
+    {
+      "label": "Book Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0s0p6lh",
+        "columns": null
+      },
+      "id": "Field_15ohghb",
+      "key": "bookName"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Issue Date",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0ucn6jl",
+        "columns": null
+      },
+      "id": "Field_1q9vcfz",
+      "key": "issueDate"
+    }
+  ],
+  "type": "default",
+  "id": "bookIssueForm",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.49.0"
+  },
+  "schemaVersion": 19
+}
